@@ -30,7 +30,7 @@ num_agents = mesa.visualization.Slider(
     "Number of agents",
     value=100,
     min_value=2,
-    max_value=200,
+    max_value=600,
     step=1,
     description="Choose how many agents to include in the model",
 )
@@ -43,7 +43,7 @@ min_group_size = mesa.visualization.Slider(
 )
 
 max_group_size = mesa.visualization.Slider(
-    name="max_group_size", value=5, min_value=3, max_value=10
+    name="max_group_size", value=5, min_value=3, max_value=50
 )
 
 resilience = mesa.visualization.Slider(
